@@ -5,15 +5,28 @@ This repo contains the various ways to perform privilege escalation. Privilege e
 
 *Service Exploit*
 
+- Exploit services in the Linux endpoint
+
+
 *Readable Shadow file*
+
+- reading a shadow file and using a password to crack password hashes
 
 *Wrtiable ect shadow*
 
+- If the shadow file has write permissions you can modify a password any user in the file
+
 *Writable etc passwd*
+
+- generate a password for any user
 
 *Sudo Shell Escape Sequences*
 
+- sudo -l command to find linux commands/services that can be executed with elevated privileges
+
 *Sudo Environment Variables*
+
+- 
 
 *Cron Jobs file permission*
 
