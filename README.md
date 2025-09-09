@@ -5,46 +5,49 @@ This repo contains the various ways to perform privilege escalation. Privilege e
 
 *Service Exploit*
 
-- Exploit services in the Linux endpoint
-
+Exploit services on the Linux machine
 
 *Readable Shadow file*
 
-- reading a shadow file and using a password to crack password hashes
+reading a shadow file and using a password to crack password hashes
 
-*Wrtiable ect shadow*
+*Wrtiable etc shadow*
 
-- If the shadow file has write permissions you can modify a password any user in the file
+If the shadow file has write permissions you can modify a password any user in the file
 
 *Writable etc passwd*
 
-- generate a password for any user
+Generate a password for any user
 
 *Sudo Shell Escape Sequences*
 
-- sudo -l command to find linux commands/services that can be executed with elevated privileges
+Use the sudo -l command to find linux commands/services that can be executed with elevated privileges
 
 *Sudo Environment Variables*
 
-- 
+Exploit environment variables
 
-*Cron Jobs file permission*
+*Cron Jobs*
 
-*Cron Jobs wildcards*
+- File permissions
 
-*Cron Jobs Path environment*
+- Wildcards
 
-*SUID GUID executables environment variables*
+- Path Environments
 
-*SUID GUID executables known exploits*
+*SUID GUID*
 
-*SUID GUID exectuables abusing shell features 1*
+- Executables Environment Variables
 
-*SUID GUID executables abusing shell features 2*
+- Executables known exploits
 
-*passowrds and keys files*
+- Executables abusig shell features 1 & 2
 
-*password and keys config files*
+*Passowrds and KeyS*
+
+- Files
+
+- Config Files
 
 *NFS*
 
