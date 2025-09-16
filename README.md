@@ -5,7 +5,7 @@ This repo contains the various ways to perform privilege escalation. Privilege e
 
 **Service Exploit** - Exploit services on the Linux machine
 
-**Readable Shadow file** - eeading a shadow file and using a password to crack password hashes
+**Readable Shadow file** - Reading a shadow file and using a password to crack password hashes
 
 **Wrtiable etc shadow** - If the shadow file has write permissions you can modify a password any user in the file
 
@@ -25,13 +25,13 @@ This repo contains the various ways to perform privilege escalation. Privilege e
 
 **SUID GUID**
 
-*Executables Environment Variables*
+*Executables environment variables*
 
 *Executables known exploits*
 
-*Executables abusig shell features 1 & 2*
+*Executables abusing shell features 1 & 2*
 
-**Passowrds and Keys**
+**Passwords and Keys**
 
 **Files**
 
@@ -41,7 +41,7 @@ This repo contains the various ways to perform privilege escalation. Privilege e
 
 **Kernel Exploits**
 
-**escalation scripts**
+**Escalation Scripts**
 
 
 
