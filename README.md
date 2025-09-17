@@ -17,19 +17,19 @@ This repo contains the various ways to perform privilege escalation. Privilege e
 
 **Cron Jobs**
 
-*File permissions*
+- File permissions
 
-*Wildcards*
+- Wildcards
 
-*Path Environments*
+- Path Environments
 
 **SUID GUID**
 
-*Executables environment variables*
+- Executables environment variables
 
-*Executables known exploits*
+- Executables known exploits
 
-*Executables abusing shell features 1 & 2*
+- Executables abusing shell features 1 & 2
 
 **Passwords and Keys**
 
