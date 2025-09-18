@@ -15,7 +15,7 @@ This repo contains the various ways to perform privilege escalation. Privilege e
 
 **Sudo Environment Variables** - Exploit environment variables
 
-**Cron Jobs**
+**Cron Jobs** - Exploit automated jobs 
 
 - File permissions
 
@@ -23,7 +23,7 @@ This repo contains the various ways to perform privilege escalation. Privilege e
 
 - Path Environments
 
-**SUID GUID**
+**SUID GUID** - Exploit SUID permissions to execute files with permissions of the file owner
 
 - Executables environment variables
 
@@ -31,17 +31,17 @@ This repo contains the various ways to perform privilege escalation. Privilege e
 
 - Executables abusing shell features 1 & 2
 
-**Passwords and Keys**
+**Passwords and Keys** - Searching for passwords and keys 
 
-**Files**
+- Files
 
-**Config Files**
+- Config Files
 
-**NFS**
+**NFS** - Check the permissions of the file share for root privileges
 
-**Kernel Exploits**
+**Kernel Exploits** - Exploit the kernel in the linux machine
 
-**Escalation Scripts**
+**Escalation Scripts** - Scipts like linpeas check for common default configurations that can be leveraged for privilege escalation
 
 
 
