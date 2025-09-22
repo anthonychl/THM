@@ -3,13 +3,13 @@ This repo contains the various ways to perform privilege escalation. Privilege e
 
 ## Linux Privilege Escalation 
 
-**Service Exploit** - Exploit services on the Linux machine
+**Service Exploit** - Exploit services on a Linux machine
 
 **Readable Shadow file** - Reading a shadow file and using a password to crack password hashes
 
-**Wrtiable etc shadow** - If the shadow file has write permissions you can modify a password any user in the file
+**Wrtiable etc shadow** - If a shadow file has write permissions you can modify a password for any user in the file
 
-**Writable etc passwd** - Generate a password for any user
+**Writable etc passwd** - Generate a password for any user in the file
 
 **Sudo Shell Escape Sequences** - Use the sudo -l command to find linux commands/services that can be executed with elevated privileges
 
@@ -39,9 +39,9 @@ This repo contains the various ways to perform privilege escalation. Privilege e
 
 **NFS** - Check the permissions of the file share for root privileges
 
-**Kernel Exploits** - Exploit the kernel in the linux machine
+**Kernel Exploits** - Exploit the kernel in a Linux machine
 
-**Escalation Scripts** - Scipts like linpeas check for common default configurations that can be leveraged for privilege escalation
+**Escalation Scripts** - Scripts like linpeas check for common default configurations that can be leveraged for privilege escalation
 
 
 
