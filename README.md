@@ -3,31 +3,19 @@ This repo contains the various ways to perform privilege escalation. Privilege e
 
 ## Linux Privilege Escalation 
 
-*Service Exploit*
+**Service Exploit** - Exploit services on a Linux machine
 
-Exploit services on the Linux machine
+**Readable Shadow file** - Reading a shadow file and using a password to crack password hashes
 
-*Readable Shadow file*
+**Wrtiable etc shadow** - If a shadow file has write permissions you can modify a password for any user in the file
 
-reading a shadow file and using a password to crack password hashes
+**Writable etc passwd** - Generate a password for any user in the file
 
-*Wrtiable etc shadow*
+**Sudo Shell Escape Sequences** - Use the sudo -l command to find linux commands/services that can be executed with elevated privileges
 
-If the shadow file has write permissions you can modify a password any user in the file
+**Sudo Environment Variables** - Exploit environment variables
 
-*Writable etc passwd*
-
-Generate a password for any user
-
-*Sudo Shell Escape Sequences*
-
-Use the sudo -l command to find linux commands/services that can be executed with elevated privileges
-
-*Sudo Environment Variables*
-
-Exploit environment variables
-
-*Cron Jobs*
+**Cron Jobs** - Exploit automated jobs 
 
 - File permissions
 
@@ -35,25 +23,25 @@ Exploit environment variables
 
 - Path Environments
 
-*SUID GUID*
+**SUID GUID** - Exploit SUID permissions to execute files with permissions of the file owner
 
-- Executables Environment Variables
+- Executables environment variables
 
 - Executables known exploits
 
-- Executables abusig shell features 1 & 2
+- Executables abusing shell features 1 & 2
 
-*Passowrds and KeyS*
+**Passwords and Keys** - Searching for passwords and keys 
 
 - Files
 
 - Config Files
 
-*NFS*
+**NFS** - Check the permissions of the file share for root privileges
 
-*kernel exploits*
+**Kernel Exploits** - Exploit the kernel in a Linux machine
 
-*escalation scripts*
+**Escalation Scripts** - Scripts like linpeas check for common default configurations that can be leveraged for privilege escalation
 
 
 
